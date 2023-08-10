@@ -1,0 +1,48 @@
+.masthead {
+    background-size: cover;
+    background-image: url('./images/Mountains.jpg');
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    
+}
+h1 {
+    font-size: 3rem;
+
+}
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #bd5d38;
+  }
+  
+  .dev-icons {
+    font-size: 3rem;
+  }
